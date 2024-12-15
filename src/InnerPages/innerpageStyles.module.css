@@ -1,0 +1,79 @@
+img{
+    max-width: 100%;
+}
+.treatment .title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.treatment h2{
+    background-color: rgba(218, 165, 32, 0.904);
+    color: white;
+    padding: 20px 0px;
+    margin: 0;
+}
+.bread{
+    background-color: green;
+
+}
+.bread h1{
+    text-align:  center;
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.scroll{
+    background-color: goldenrod;
+}
+.scroll h1{
+    text-align:  center;
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px;
+
+}
+.scroll .scrolling-container{
+    width: 100%;
+    background-color: rgb(255, 67, 15);
+    overflow: hidden;
+    white-space: nowrap;
+}
+.scroll .scrolling-content{
+    display: inline-block;
+    animation-name: scroll;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.scroll .scroll-item {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 1.2em;
+    white-space: normal;
+  }
+
+@keyframes scroll{
+    from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+}
+
+.enquiry form{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+

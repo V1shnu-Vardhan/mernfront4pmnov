@@ -1,0 +1,38 @@
+.bread{
+    background-color: green;
+
+}
+.bread h1{
+    text-align:  center;
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.student form{
+    box-shadow: 4px 3px 3px 5px green;
+    padding:  20px;
+}
+ul li{
+    list-style: inside none;
+}
+a{
+    text-decoration: none;
+}
+.student ul li{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+textarea{
+    height: 125px;
+}
+.doctor form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.align-end {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; /* Ensures it spans the width of the container */
+  }
+  
